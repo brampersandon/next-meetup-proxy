@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "meetup-api": "^1.4.13"
+  }
+}
