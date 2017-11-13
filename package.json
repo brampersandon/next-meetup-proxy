@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "meetup-api": "^1.4.13",
+    "micro": "^9.0.1",
+    "micro-cors": "^0.0.4"
+  }
+}
