@@ -6,7 +6,7 @@ if (!MEETUP_NAME) throw Error('Please provide a MEETUP_NAME environment variable
 
 const meetup = require('meetup-api')({ key: process.env.MEETUP_KEY })
 const cors = require('micro-cors')({
-  origin: 'http://javascriptmn.com'
+  origin: 'https://javascriptmn.com'
 })
 
 exports.default = cors(async (req, res) => {
